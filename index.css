@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+    color: White
+  }
+  h1.x {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: #1a1c1c;
+    z-index: 1;
+  }
+  hr {
+    border: 1px solid white;
+  }
+  p {
+      text-align: justify;
+      font-size: 16px;
+      width: 100%;
+      max-width: 630px;
+  }
+  a {
+      color: White;
+  }
+  .main {
+      width: 100%;
+      max-width: 470px;
+  }
+  .article1 {
+      width: 100%;
+      max-width: 320px;
+      padding: 10px;
+  }
+  .article2 {
+      width: 100%;
+      max-width: 290px;
+      padding: 10px;
+  }
+  .article3 {
+      width: 100%;
+      max-width: 290px;
+      padding: 10px;
+  }
+  .article4 {
+      width: 100%;
+      max-width: 290px;
+      padding: 10px;
+  }

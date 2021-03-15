@@ -1,0 +1,14 @@
+body{
+    font-family: Arial;
+  }
+  .link1 {
+    color: #34c0eb;
+    font-size: 40px;
+  }
+  h3 {
+    margin: 10px;
+  }
+  .commish {
+    width: 95%;
+    max-width: 700px;
+  }

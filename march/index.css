@@ -12,3 +12,15 @@ body{
     width: 95%;
     max-width: 700px;
   }
+  .top {
+    width: 100%;
+    max-width: 500px;
+  }
+  .dad {
+    width: 100%;
+    max-width: 200px;
+  }
+  h3 {
+    width: 100%;
+    max-width: 1000px;
+  }

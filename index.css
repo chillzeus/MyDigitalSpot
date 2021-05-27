@@ -51,6 +51,9 @@ body {
   }
   .vault {
       width: 100%;
-      max-width: 450px;
+      max-width: 150px;
       float:right;
+  }
+  .valultp {
+      float:left;
   }

@@ -49,7 +49,11 @@ body {
       max-width: 327px;
       padding: 10px;
   }
-  .vault {
+  .vaultimg {
       width: 100%;
       max-width: 200px;
+  }
+  #vault {
+      background-color: #454343;
+      padding: 20px;
   }

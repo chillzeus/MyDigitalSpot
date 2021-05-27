@@ -49,3 +49,8 @@ body {
       max-width: 327px;
       padding: 10px;
   }
+  .vault {
+      width: 100%;
+      max-width: 450px;
+      float:right;
+  }

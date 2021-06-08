@@ -57,3 +57,11 @@ body {
       background-color: #454343;
       padding: 20px;
   }
+  #featuredsite {
+      background-color: #454343;
+      padding: 20px;
+  }
+  .monkeytype {
+      width: 100%;
+      max-width: 327px;
+  }

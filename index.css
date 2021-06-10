@@ -55,13 +55,13 @@ body {
   }
   #vault {
       background-color: #454343;
-      padding: 20px;
+      padding: 10px;
   }
   #featuredsite {
-      background-color: #454343;
-      padding: 20px;
+      background-color: #522f2a;
+      padding: 10px;
   }
   .monkeytype {
-      width: 100%;
-      max-width: 327px;
+        width: 100%;
+        max-width: 300px;
   }

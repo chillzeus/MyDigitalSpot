@@ -2,12 +2,11 @@ function getRandNumber(max) {
 	return Math.floor(Math.random() * max);
 }
 
-var number = getRandNumber(2);
 
-var headsOrTails = "None";
+const flipCoin = () => {
+	const number = getRandNumber(2);
 
-if (number == 1) {
-	document.getElementById("coin").innerHTML = "<h1>You flipped Heads!</h1>";
-} else {
-	document.getElementById("coin").innerHTML = "<h1>You flipped Tails!</h1>";
+	const newHtml = `<h1>You flipped ${(number === 1 ? "Heads" : "Tails")}!`;
+
+	document.getElementById("coinimg").innerHTML = newHtml;
 }

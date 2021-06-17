@@ -3,11 +3,14 @@ body {
     background: #282b29;
     color: #70b9e6;
     padding: 15px;
-  }
-  .header {
+    text-align: center;
+}
+
+.header {
     font-size: 50px;
-  }
-  button {
+}
+
+button {
     border: 3px Solid #70b9e6;
     width: 230px;
     height: 50px;
@@ -15,13 +18,15 @@ body {
     background-color: #282b29;
     color: #70b9e6;
     font-size: 18px;
-  }
-  button:hover {
+}
+
+button:hover {
     background-color: #70b9e6;
     color: #282b29;
     cursor: pointer;
-  }
-  .footer {
+}
+
+.footer {
     position: fixed;
     bottom: 10px;
-  }
+}

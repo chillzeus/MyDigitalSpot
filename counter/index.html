@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<div id="value">
+  
+</div>
+<button onclick="increase(), refresh()">Increase</button>
+<button onclick="decrease(), refresh()">Decrease</button>
+<button onclick="reset(), refresh()">Reset</button>
+
+<script>
+let value = 0;
+const newhtml = ("<h1>" + value + '</h1>');
+document.getElementById("value").innerHTML = newhtml;
+
+function decrease() {
+	value = value - 1;
+  return value;
+}
+function increase() {
+	value = value + 1;
+  return null;
+}
+function reset() {
+	value = 0;
+  return null;
+}
+function refresh() {
+	document.getElementById("value").innerHTML = '<h1>' + value + '</h1>';
+}    
+</script>
+</html>

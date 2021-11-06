@@ -1,67 +1,17 @@
 body {
-    font-family: Arial;
-    margin: 20px;
-    color: White
+    font-family: monospace;
+    background-color: #222324;
+    color: #9ea6ad;
   }
-  h1.x {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    padding: 10px;
-    margin: 0px;
+  h1 {
+    font-size: 65px;
+  }
+  img.chillzeus {
     width: 100%;
-    background-color: #1a1c1c;
-    z-index: 1;
+    max-width: 350px;
+    border-radius: 50%;
   }
-  hr {
-    border: 1px solid white;
-  }
-  p.desc {
-      text-align: justify;
-      font-size: 16px;
-      width: 100%;
-      max-width: 630px;
-  }
-  a {
-      color: White;
-  }
-  .main {
-      width: 100%;
-      max-width: 470px;
-  }
-  .bsl {
-      width: 100%;
-      max-width: 320px;
-      padding: 10px;
-  }
-  .amazfit {
-      width: 100%;
-      max-width: 290px;
-      padding: 10px;
-  }
-  .apple {
-      width: 100%;
-      max-width: 315px;
-      padding: 10px;
-  }
-  .nba {
-      width: 100%;
-      max-width: 327px;
-      padding: 10px;
-  }
-  .vaultimg {
-      width: 100%;
-      max-width: 270px;
-  }
-  #vault {
-      background-color: #454343;
-      padding: 10px;
-  }
-  #featuredsite {
-      background-color: #522f2a;
-      padding: 10px;
-  }
-  .monkeytype {
-        width: 100%;
-        max-width: 300px;
+  img {
+    width: 100%;
+    max-width: 70px;
   }

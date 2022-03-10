@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial=scale=1">
 <title>404 Not Found</title>
 </head>
 <html>
-<center>
 <br />
-<h1>404. That's an error</h1>
+<div class="links">
+    <div><h1>404. That's an error</h1></div>
+</div>
 <br />
-<h2>But here are some rather helpful links:</h2>
-<h3><a href="index.html">MyDigitalSpot Home</a></h3>
-<h3><a href="a/amazfit.html">Amazfit Band 5 review</a></h3>
-<h3><a href="a/bsl.html">BSL Luge in-depth game review</a></h3>
-<h3><a href="a/frogs.html">Pet African Dwarf Frogs</a></h3>
-<h3><a href="https://www.youtube.com/watch?v=0BRx5PJlzCs">Joe Biden 19 dollar fortnite card</a></h3>    
-</center>
+<div class="links">
+    <div><h2>But here are some rather helpful links:</h2></div>
+    <div><h3><a href="index.html">mydigitalspot.dev home</a></h3></div>
+    <div><h3><a href="https://github.com/chillzeus">ChillZeus github</a></h3></div>
+    <div><h3><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Free stuff click here</a></h3></div>
+</div>
 
 <style>
 body {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'League Spartan', sans-serif;
     color: white;
     background-color: #282b29;
 }
@@ -26,8 +29,12 @@ h1 {
     font-size: 60px;
 }
 a {
-    color: lightskyblue
-    ;
+    color: lightskyblue;
 }
+.links {
+  display: flex;
+  text-align: center; 
+  flex-direction: column; 
+ }
 </style>
 </html>

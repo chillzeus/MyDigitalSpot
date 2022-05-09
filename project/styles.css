@@ -22,3 +22,7 @@ body {
     padding: 15px;
     border: 3px Solid Black;
 }
+.sidebyside {
+    display: flex;
+    flex-direction: column;
+}

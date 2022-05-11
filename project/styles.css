@@ -9,9 +9,16 @@ body {
     background-color: #1d2f6f;
     color: white;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .logo {
-    max-width: 500px;
+   max-width: 500px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
 }
 .whitnall {
     color: #fac748;
@@ -38,4 +45,29 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.box1 {
+    width: 25%;
+    height: 200px;
+    background-color: #fac748;
+    flex-direction: column;
+    justify-content: center;
+}
+.box2 {
+  width: 25%;
+  height: 200px;
+  background-color: #1d2f6f;
+}
+.upthing {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  margin: 30px;
+  background-color: white;
+  border: 3px Solid Black;
 }

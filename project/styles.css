@@ -21,8 +21,9 @@ body {
    margin-right: auto;
    width: 50%;
 }
-.whitnall {
+a.whitnall {
     color: #fac748;
+    text-decoration: none;
 }
 .hust {
     background-color: lightgrey;
@@ -77,4 +78,8 @@ a:hover {
     background-color: #1d2f6f;
     color: white;
     padding: 20px;
+}
+a.special {
+    color: white;
+    text-decoration: none;
 }

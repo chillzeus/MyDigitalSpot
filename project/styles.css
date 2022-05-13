@@ -1,5 +1,6 @@
 body {
     font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
 }
 .header {
     width: 100%;
@@ -70,4 +71,10 @@ a:hover {
   margin: 30px;
   background-color: white;
   border: 3px Solid Black;
+  color: black;
+}
+.footer {
+    background-color: #1d2f6f;
+    color: white;
+    padding: 20px;
 }

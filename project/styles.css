@@ -95,9 +95,13 @@ a.black:hover {
 }
 .davehust {
     width: 100%;
-    max-width: 330px;
-    height: 300px;
+    max-width: 200px;
+    height: 180px;
 }
 .affiliate {
     text-align: center;
+}
+p {
+    font-size: 18px;
+    width: 80%;
 }

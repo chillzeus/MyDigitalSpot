@@ -57,12 +57,15 @@ a:hover {
     height: 200px;
     background-color: #fac748;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
 }
 .box2 {
   width: 25%;
   height: 200px;
   background-color: #1d2f6f;
+  flex-direction: column;
+  text-align: center;
 }
 .upthing {
   position: fixed;
@@ -82,4 +85,19 @@ a:hover {
 a.special {
     color: white;
     text-decoration: none;
+}
+a.black {
+    text-decoration: none;
+    color: black;
+}
+a.black:hover {
+    text-decoration: underline;
+}
+.davehust {
+    width: 100%;
+    max-width: 330px;
+    height: 300px;
+}
+.affiliate {
+    text-align: center;
 }

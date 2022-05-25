@@ -15,11 +15,11 @@ body {
     width: 100%;
 }
 .logo {
-   max-width: 500px;
+   max-width: 900px;
    display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 50%;
+   width: 100%;
 }
 a.whitnall {
     color: #fac748;
@@ -33,7 +33,7 @@ a.whitnall {
 }
 .sidebyside {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .register {
     background-color: #1d2f6f;
@@ -94,14 +94,12 @@ a.black:hover {
     text-decoration: underline;
 }
 .davehust {
-    width: 100%;
-    max-width: 200px;
-    height: 180px;
+    margin: 10px;
 }
 .affiliate {
     text-align: center;
 }
 p {
-    font-size: 18px;
-    width: 80%;
+    font-size: 26px;
+    width: 60%;
 }

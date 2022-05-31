@@ -103,3 +103,10 @@ p {
     font-size: 26px;
     width: 60%;
 }
+.video {
+    margin: 15px;
+}
+hr {
+    border: 2px Solid Black;
+    margin: 10px;
+}

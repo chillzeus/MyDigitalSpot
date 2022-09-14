@@ -1,17 +1,31 @@
 body {
-    font-family: monospace;
-    background-color: #222324;
-    color: #9ea6ad;
-  }
-  h1 {
-    font-size: 65px;
-  }
-  img.chillzeus {
-    width: 100%;
-    max-width: 350px;
-    border-radius: 50%;
-  }
-  img {
-    width: 100%;
-    max-width: 70px;
-  }
+  background-color: #222324;
+  color: #9ea6ad;
+}
+#outer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+#left-side {
+  background-color: #1e1e1f;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 25px;
+  width: 45%;
+}
+#right-side {
+  background-color: #1e1e1f;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 25px;
+  width: 45%;;
+}
+.centerIt {
+  text-align: center;
+}
+img {
+  border-radius: 500px;
+  border: 1px Solid Blue;
+  width: 30%;
+}

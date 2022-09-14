@@ -14,13 +14,15 @@ body {
   margin: 20px;
   border-radius: 25px;
   width: 45%;
+  border: 2px Solid #d6ff08;
 }
 #right-side {
   background-color: #1e1e1f;
   padding: 20px;
   margin: 20px;
   border-radius: 25px;
-  width: 45%;;
+  width: 45%;
+  border: 2px Solid #d6ff08;
 }
 .centerIt {
   text-align: center;
@@ -34,5 +36,38 @@ hr {
   color: #03fce3;
   height: 5px;
   border: 2px Solid #03fce3;
-  width: 25%;
+  width: 15%;
+}
+.username {
+  font-family: 'Nabla', cursive;
+  font-size: 40px;
+}
+.desc {
+  width: 100%;
+  max-width: 430px;
+  font-weight: 500;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+.header {
+  font-size: 40px;
+  font-family: 'Syne Mono', monospace;
+  color: #f705df
+}
+h2 {
+  color: #d6ff08;
+  margin: 10px;
+}
+h3 {
+  padding: 10px;
+}
+a {
+  color:#d6ff08;
+  text-decoration: underline;
+}
+.placeholder {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Syne Mono', monospace;
 }

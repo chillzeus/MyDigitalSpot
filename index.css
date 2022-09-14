@@ -1,6 +1,7 @@
 body {
   background-color: #222324;
   color: #9ea6ad;
+  font-family: Arial;
 }
 #outer-container {
   display: flex;
@@ -26,6 +27,12 @@ body {
 }
 img {
   border-radius: 500px;
-  border: 1px Solid Blue;
+  border: 3px Solid #03fce3;
   width: 30%;
+}
+hr {
+  color: #03fce3;
+  height: 5px;
+  border: 2px Solid #03fce3;
+  width: 25%;
 }

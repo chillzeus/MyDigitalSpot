@@ -42,6 +42,10 @@ hr {
   font-family: 'Nabla', cursive;
   font-size: 40px;
 }
+.usernameLink {
+  font-family: 'Nabla', cursive;
+  font-size: 40px;
+}
 .desc {
   width: 100%;
   max-width: 430px;
@@ -62,7 +66,7 @@ h2 {
 h3 {
   padding: 10px;
 }
-a {
+.project-link {
   color:#d6ff08;
   text-decoration: underline;
 }
@@ -77,5 +81,31 @@ a {
 .spotify {
   font-family: 'Rubik Burned', cursive;
   color: green;
-  font-size: 28px;
+  font-size: 24px;
+}
+.steam {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+}
+.github {
+  font-family: monospace;
+  font-size: 25px;
+  color: #333f5c;
+}
+.spotify-link {
+  text-decoration: none;
+  color: green;
+}
+.steam-link {
+  text-decoration: none;
+  color: #666d8c;
+}
+.github-link {
+  text-decoration: none;
+  color: #333f5c;
+}
+.link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }

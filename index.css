@@ -71,3 +71,11 @@ a {
   text-align: center;
   font-family: 'Syne Mono', monospace;
 }
+.usernameLink {
+  text-decoration: none;
+}
+.spotify {
+  font-family: 'Rubik Burned', cursive;
+  color: green;
+  font-size: 28px;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+    <title>Baseball Simulation</title>
+    <link rel="stylesheet", href="./styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<!--Soon this file will be used for a user interface, probably around the release-->
+
+<div id="container">
+    <div id="scoreboard">
+        <p class="identifier">Score</p>
+        <div id="score-display">
+            <div id="team1score"></div>
+            <div>-</div>
+            <div id="team2score"></div>
+        </div>
+        <br />
+        <div id="scoreboard-info">
+            <div>Team 1</div>
+            <div></div>
+            <div>Team 2</div>
+        </div>
+    </div>
+    <div id="stats">
+        <p class="identifier">Statistics</p>
+        <div id="line1">
+            <div>--</div>
+            <div>1B</div>
+            <div>2B</div>
+            <div>3B</div>
+            <div>HR</div>
+            <div>K</div>
+            <div>BB</div>
+        </div>
+        <br /><hr /><br />
+        <div id="line1">
+            <div>T1</div>
+            <div id="team1-1b"></div>
+            <div id="team1-2b"></div>
+            <div id="team1-3b"></div>
+            <div id="team1-hr"></div>
+            <div id="team1-k"></div>
+            <div id="team1-bb"></div>
+        </div>
+        <br />
+        <div id="line1">
+            <div>T2</div>
+            <div id="team2-1b"></div>
+            <div id="team2-2b"></div>
+            <div id="team2-3b"></div>
+            <div id="team2-hr"></div>
+            <div id="team2-k"></div>
+            <div id="team2-bb"></div>
+        </div>
+    </div>
+</div>
+
+<br />
+
+<div id="container2">
+    <div id="player-roster">
+        <p class="alt-p">Players</p>
+        <hr class="longer-hr"/>
+        <h4>Team 1</h4>
+        <table id="team1-players">
+            <tr class="greyed-out-table">
+                <th class="player-name">Player name</th>
+                <th>H</th>
+                <th>1B</th>
+                <th>2B</th>
+                <th>3B</th>
+                <th>HR</th>
+                <th>K</th>
+                <th>BB</th>
+            </tr>
+        </table>
+        <h4>Team 2</h4>
+        <table id="team2-players">
+            <tr class="greyed-out-table">
+                <th class="player-name">Player name</th>
+                <th>H</th>
+                <th>1B</th>
+                <th>2B</th>
+                <th>3B</th>
+                <th>HR</th>
+                <th>K</th>
+                <th>BB</th>
+            </tr>
+        </table>
+    </div>
+</div>
+<div id="container3">
+    <div id="pitching-stats">
+        <p class="identifier">Pitching</p>
+        <hr class="longer-hr">
+        <h4>Team 1</h4>
+        <table id="team1Pitchers">
+            <tr class="greyed-out-table">
+                <th class="pitcher-name">Player name</th>
+                <th>P</th>
+                <th>K</th>
+                <th>BB</th>
+            </tr>
+        </table>
+        <h4>Team 2</h4>
+        <table id="team2Pitchers">
+            <tr class="greyed-out-table">
+                <th class="pitcher-name">Player name</th>
+                <th>P</th>
+                <th>K</th>
+                <th>BB</th>
+            </tr>
+        </table>
+    </div>
+    <div id="mvp">
+        <p class="identifier">In-Depth Statistics</p>
+        <center>
+            <div id="inningsDisplayed"></div>
+            <div id="miscstats"></div>
+        </center>
+    </div>
+</div>
+
+<p id="version">v0.1.0.0</p>
+
+<script src="./script.js"></script>

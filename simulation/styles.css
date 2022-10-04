@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: White;
+    background-color: #303030;
+}
+h4 {
+    font-weight: 700;
+    margin-left: 30px;
+}
+h5 {
+    padding: 0px;
+    margin: 0px;
+    color: grey;
+    margin-left: 30px;
+}
+h2 {
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.innings {
+    font-size: 26px;
+}
+#scoreboard {
+    background-color: #212121;
+    width: 40%;
+    border-radius: 25px;
+    margin: 10px;
+    height: 300px;
+    align-items: center;
+}
+#score-display {
+    display: flex;
+    font-size: 72px;
+    justify-content: space-evenly;
+}
+#scoreboard-info {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+#stats {
+    width: 55%;
+    background: #212121;
+    border-radius: 25px;
+    height: 300px;
+    margin: 10px;
+}
+.identifier {
+    padding: 30px;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#line1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#container2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+#player-roster {
+    background-color: #212121;
+    width: 97.2%;
+    border-radius: 25px;
+}
+.alt-p {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+.roster-heading {
+    font-weight: 500;
+    padding: 20px;
+}
+#version {
+    text-align: right;
+    padding: 30px;
+}
+.eachplayer {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+.team-heading {
+    margin-left: 30px;
+}
+
+/* hr */
+hr {
+    width: 85%;
+}
+.hr-1 {
+    width: 96.5%;
+    border: 0.5px Solid grey;
+}
+.longer-hr {
+    border: 1.5px Solid White;
+    width: 96.5%;
+}
+
+table {
+    width: 95%;
+    margin: 30px;
+    margin-bottom: 30px;
+    border: 3px Solid Grey;
+    padding: 10px;
+}
+.team-table {
+    width: 95%;
+    margin: 0px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: none;
+}
+.player-name {
+    text-align: left;
+}
+.pitcher-name {
+    text-align: left;
+    margin-left: 30px;
+}
+.greyed-out-table {
+    color: grey;
+}
+th {
+    padding: 5px;
+    margin: 10px;
+}
+#mvp {
+    width: 30%;
+    background-color: #212121;
+    border-radius: 25px;
+}
+#pitching-stats {
+    width: 65%;
+    background-color: #212121;
+    border-radius: 25px;
+}
+.indepth {
+    font-size: 20px;
+}

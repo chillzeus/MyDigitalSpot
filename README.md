@@ -1,1 +1,0 @@
-Right now this is my site that I use for some stuff. At the moment there isn't a ton here but there might be soon (take a look at "simulation" in my github!!)

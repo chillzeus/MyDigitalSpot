@@ -105,3 +105,7 @@ h3 {
   flex-direction: row;
   justify-content: space-evenly;
 }
+.codewars {
+  width: 100%;
+  max-width: 320px;
+}

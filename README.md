@@ -1,1 +1,0 @@
-![My Remote Image](URL:https://www.codewars.com/users/ChillZeus/badges/small)

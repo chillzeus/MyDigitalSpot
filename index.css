@@ -1,111 +1,18 @@
 body {
   background-color: #222324;
-  color: #9ea6ad;
   font-family: Arial;
-}
-#outer-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly
-}
-#left-side {
-  background-color: #1e1e1f;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 25px;
-  width: 45%;
-  border: 2px Solid #d6ff08;
-}
-#right-side {
-  background-color: #1e1e1f;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 25px;
-  width: 45%;
-  border: 2px Solid #d6ff08;
-}
-.centerIt {
-  text-align: center;
-}
-.chillzeusphoto {
-  border-radius: 500px;
-  border: 3px Solid #03fce3;
-  width: 30%;
-}
-hr {
-  color: #03fce3;
-  height: 5px;
-  border: 2px Solid #03fce3;
-  width: 15%;
-}
-.username {
-  font-family: 'Syne Mono', monospace;
-  font-size: 40px;
-}
-.desc {
-  width: 100%;
-  max-width: 430px;
-  font-weight: 500;
-  padding: 10px;
-  margin: 0 auto;
-  text-align: center;
-}
-.header {
-  font-size: 40px;
-  font-family: 'Syne Mono', monospace;
-  color: #f705df
+  color: White;
 }
 h2 {
-  color: #d6ff08;
-  margin: 10px;
-}
-h3 {
-  padding: 10px;
-}
-.project-link {
-  color:#d6ff08;
-  text-decoration: underline;
-}
-.placeholder {
-  margin-top: 30px;
-  text-align: center;
-  font-family: 'Syne Mono', monospace;
-}
-.usernameLink {
-  text-decoration: none;
-}
-.spotify {
-  font-family: 'Rubik Burned', cursive;
-  color: green;
-  font-size: 24px;
-}
-.steam {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 25px;
-}
-.github {
-  font-family: monospace;
-  font-size: 25px;
-  color: #333f5c;
-}
-.spotify-link {
-  text-decoration: none;
-  color: green;
-}
-.steam-link {
-  text-decoration: none;
-  color: #666d8c;
-}
-.github-link {
-  text-decoration: none;
-  color: #333f5c;
-}
-.link-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.codewars {
   width: 100%;
-  max-width: 320px;
+  max-width: 800px;
+}
+.header {
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace
+}
+.github-profile-badge {
+  padding: 20px;
+  position: fixed;
 }
